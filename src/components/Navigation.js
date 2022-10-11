@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
+import '../styles/Navigation.css';
 
-function NavigationBar() {
+function Navigation() {
   return (
-    <div>
-      <div>Logo</div>
-      <nav>
+      <nav className="Nav">
+        <div>Logo</div>
         <ul>
           <li>
             <Link to="/">Home</Link>
@@ -17,8 +17,7 @@ function NavigationBar() {
           </li>
         </ul>
       </nav>
-    </div>
   );
 }
 
-export default NavigationBar;
+export default Navigation;
