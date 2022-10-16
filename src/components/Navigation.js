@@ -11,10 +11,10 @@ function Navigation() {
         <li className="navLink">
           <Link to="/">Home</Link>
         </li>
-        <li className="navLink">
+        <li className="navlink">
           <Link to="/pricing">Pricing</Link>
         </li>
-        <li className="navLink">
+        <li className="navlink">
           <Link to="/about">About</Link>
         </li>
       </ul>
