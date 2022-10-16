@@ -1,19 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+
 .Nav {
-  height: 40px;
-  width: 100%;
+  top: 0;
+  padding: 0 20px;
+  min-height: 75px;
   display: flex;
-  padding: 0;
-  margin: 0;
-  box-sizing: 0;
+  justify-content: space-around;
+  align-items: center;
+
+  .logo {
+    width: 70vh;
+
+    @media all and (max-width: 600px) {
+      display: none;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      max-width: 200px;
+    }
+  }
 
   ul {
+    width: 25vh;
     display: flex;
-    padding: 0;
-    margin: 0;
-    list-style: none;
+    padding: 0 50px;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "Marcellus", serif;
+    font-weight: bolder;
+    font-size: 20px;
+
+    @media all and (max-width: 600px) {
+      margin: 0 auto;
+      width: 100vh;
+      padding: 0;
+    }
+
     li {
+      list-style: none;
+      padding: 0 20px;
+
       a {
         text-decoration: none;
+        color: black;
       }
     }
   }
