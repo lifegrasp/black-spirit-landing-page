@@ -1,20 +1,14 @@
 .Nav {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  box-sizing: 0;
+  background-color: red;
 
   ul {
-    display: flex;
-    float: right;
-    padding: 0;
     margin: 0;
-    list-style: none;
-    li {
-      a {
-        text-decoration: none;
-        color: black;
-      }
+    padding: 0;
+    float: right;
+
+    a {
+      text-decoration: none;
+      color: black;
     }
   }
 }

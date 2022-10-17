@@ -1,17 +1,12 @@
 .Nav {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  box-sizing: 0;
+  background-color: red;
 }
 .Nav ul {
-  display: flex;
-  float: right;
-  padding: 0;
   margin: 0;
-  list-style: none;
+  padding: 0;
+  float: right;
 }
-.Nav ul li a {
+.Nav ul a {
   text-decoration: none;
   color: black;
 }/*# sourceMappingURL=Navigation.css.map */
