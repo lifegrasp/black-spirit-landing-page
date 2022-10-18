@@ -1,1 +1,48 @@
-/*# sourceMappingURL=Home.css.map */
+.services {
+  margin: 50px auto;
+  text-align: center;
+  font-family: "Marcellus", serif;
+}
+
+.showcase {
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  font-family: "Marcellus", serif;
+}
+.showcase .video {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+}
+.showcase .video iframe {
+  width: 100%;
+  height: 100%;
+  max-height: 350px;
+}
+.showcase .blessings {
+  width: 100%;
+  max-width: 500px;
+}
+.showcase .blessings .blessings-flex {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+.showcase .blessings .blessings-flex .icon .icon-image {
+  max-width: 75px;
+}
+.showcase .blessings .blessings-flex .desc {
+  margin: 0 20px;
+  width: auto;
+  max-width: 400px;
+}
+.showcase .blessings .blessings-flex .desc h2 {
+  margin-bottom: 15px;
+}
+.showcase .blessings .blessings-flex .desc p {
+  margin-top: 15px;
+  font-weight: bolder;
+}/*# sourceMappingURL=Home.css.map */

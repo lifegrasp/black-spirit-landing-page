@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
 .Nav {
-  top: 0;
-  padding: 0 20px;
+  margin: 0 20px;
   min-height: 75px;
   display: flex;
   justify-content: space-around;
@@ -10,36 +8,24 @@
 .Nav .logo {
   width: 70vh;
 }
-@media all and (max-width: 600px) {
-  .Nav .logo {
-    display: none;
-  }
-}
 .Nav .logo img {
-  width: 100%;
+  width: 200px;
   height: 100%;
-  max-width: 200px;
 }
 .Nav ul {
   width: 25vh;
   display: flex;
-  padding: 0 50px;
+  margin: 0 50px;
   flex-direction: row;
-  justify-content: space-around;
+  align-items: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
   font-family: "Marcellus", serif;
   font-weight: bolder;
   font-size: 20px;
 }
-@media all and (max-width: 600px) {
-  .Nav ul {
-    margin: 0 auto;
-    width: 100vh;
-    padding: 0;
-  }
-}
 .Nav ul li {
   list-style: none;
-  padding: 0 20px;
 }
 .Nav ul li a {
   text-decoration: none;

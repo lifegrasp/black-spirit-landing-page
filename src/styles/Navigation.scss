@@ -1,8 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
-
 .Nav {
-  top: 0;
-  padding: 0 20px;
+  // top: 0;
+  // padding: 0 20px;
+  margin: 0 20px;
   min-height: 75px;
   display: flex;
   justify-content: space-around;
@@ -11,36 +10,40 @@
   .logo {
     width: 70vh;
 
-    @media all and (max-width: 600px) {
-      display: none;
-    }
+    // @media all and (max-width: 600px) {
+    //   display: none;
+    // }
 
     img {
-      width: 100%;
+      width: 200px;
       height: 100%;
-      max-width: 200px;
+      // max-width: 200px;
     }
   }
 
   ul {
     width: 25vh;
     display: flex;
-    padding: 0 50px;
+    margin: 0 50px;
+    // padding: 0 50px;
     flex-direction: row;
-    justify-content: space-around;
+    // justify-content: space-around;
+    align-items: center;
+    column-gap: 10px;
     font-family: "Marcellus", serif;
     font-weight: bolder;
     font-size: 20px;
 
-    @media all and (max-width: 600px) {
-      margin: 0 auto;
-      width: 100vh;
-      padding: 0;
-    }
+    // @media all and (max-width: 600px) {
+    //   margin: 0 auto;
+    //   width: 100vh;
+    //   padding: 0;
+    // }
 
     li {
       list-style: none;
-      padding: 0 20px;
+      // margin: 0 20px;
+      // padding: 0 20px;
 
       a {
         text-decoration: none;
