@@ -14,6 +14,7 @@ function Home() {
     <>
       <h1 className="services">Services</h1>
       <div className="showcase">
+        {/* Video section is here */}
         <div className="video">
           <iframe
             src="https://www.youtube.com/embed/_lB7H9wXHTY"
@@ -22,6 +23,9 @@ function Home() {
             title="BDO Blessing"
           ></iframe>
         </div>
+        {/* Video section ends here */}
+
+        {/* Blessings section is here */}
         <div className="blessings">
           <div className="blessings-flex">
             <div className="icon">
@@ -63,6 +67,7 @@ function Home() {
             </div>
           </div>
         </div>
+        {/* Blessing section ends here */}
       </div>
     </>
   );
