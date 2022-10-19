@@ -13,7 +13,7 @@ function Home() {
   return (
     <>
       <h1 className="services">Services</h1>
-      <div className="showcase">
+      <div className="showcase-home">
         {/* Video section is here */}
         <div className="video">
           <iframe
@@ -36,7 +36,7 @@ function Home() {
               />
             </div>
             <div className="desc">
-              <h2>100% Enhancing Rate</h2>
+              <h2>100% Enhancing Rate!</h2>
               <p>{enhanceDesc}</p>
             </div>
           </div>
