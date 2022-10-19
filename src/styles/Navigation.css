@@ -5,24 +5,63 @@
   justify-content: space-around;
   align-items: center;
 }
+@media all and (max-width: 680px) {
+  .Nav {
+    flex-direction: column;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
 .Nav .logo {
   width: 70vh;
 }
+@media all and (max-width: 680px) {
+  .Nav .logo {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+  }
+}
 .Nav .logo img {
-  width: 200px;
+  max-width: 200px;
   height: 100%;
+}
+@media all and (max-width: 680px) {
+  .Nav .logo img {
+    margin: 0 auto;
+  }
 }
 .Nav ul {
   width: 25vh;
   display: flex;
-  margin: 0 50px;
+  margin: 0 100px;
+  padding: 0;
   flex-direction: row;
-  align-items: center;
-  -moz-column-gap: 10px;
-       column-gap: 10px;
+  justify-content: space-around;
+  -moz-column-gap: 65px;
+       column-gap: 65px;
   font-family: "Marcellus", serif;
   font-weight: bolder;
   font-size: 20px;
+}
+@media all and (max-width: 680px) {
+  .Nav ul {
+    width: 100%;
+    margin: 20px auto;
+    justify-content: center;
+    -moz-column-gap: 100px;
+         column-gap: 100px;
+  }
+}
+@media all and (max-width: 680px) and (max-width: 425px) {
+  .Nav ul {
+    -moz-column-gap: 25px;
+         column-gap: 25px;
+  }
 }
 .Nav ul li {
   list-style: none;
