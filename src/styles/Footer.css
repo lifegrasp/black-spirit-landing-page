@@ -1,0 +1,21 @@
+footer {
+  margin: 50px auto;
+  width: 100%;
+  max-width: 700px;
+  text-align: justify;
+  font-family: "Marcellus", serif;
+  display: flex;
+}
+footer a {
+  margin: auto 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+footer a img {
+  max-width: 50px;
+  max-height: 50px;
+}
+footer h3 {
+  margin: auto 20px;
+}/*# sourceMappingURL=Footer.css.map */
