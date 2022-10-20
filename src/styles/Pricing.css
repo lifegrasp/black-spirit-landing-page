@@ -11,12 +11,24 @@
   max-width: 1000px;
   font-family: "Marcellus", serif;
 }
+@media all and (max-width: 680px) {
+  .showcase-pricing {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .showcase-pricing h2 {
   text-align: center;
 }
 .showcase-pricing form {
   width: 100%;
   max-width: 30%;
+}
+@media all and (max-width: 680px) {
+  .showcase-pricing form {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 .showcase-pricing form .form-group {
   margin: 25px auto;
@@ -63,7 +75,6 @@
 }
 .showcase-pricing .pricing .pricing-group .product p {
   margin: auto 20px;
-  text-align: justify;
 }
 .showcase-pricing .pricing .pricing-group .product button {
   margin: auto;
