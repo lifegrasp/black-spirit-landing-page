@@ -11,11 +11,22 @@
   max-width: 1000px;
   font-family: "Marcellus", serif;
 }
+@media all and (max-width: 680px) {
+  .showcase-home {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .showcase-home .video {
   display: flex;
   align-items: center;
   width: 100%;
   max-width: 500px;
+}
+@media all and (max-width: 680px) {
+  .showcase-home .video {
+    height: 300px;
+  }
 }
 .showcase-home .video iframe {
   width: 100%;
